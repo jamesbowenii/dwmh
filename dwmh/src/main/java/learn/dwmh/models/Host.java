@@ -1,6 +1,4 @@
-package learn.models;
-
-import java.util.Objects;
+package learn.dwmh.models;
 
 public class Host {
 

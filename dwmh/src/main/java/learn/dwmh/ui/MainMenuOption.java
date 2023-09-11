@@ -1,4 +1,4 @@
-package learn.ui;
+package learn.dwmh.ui;
 
 public enum MainMenuOption {
 

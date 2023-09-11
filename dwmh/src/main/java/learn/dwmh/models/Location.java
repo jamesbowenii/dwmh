@@ -1,4 +1,4 @@
-package learn.models;
+package learn.dwmh.models;
 
 import java.math.BigDecimal;
 
@@ -90,5 +90,7 @@ public class Location {
     public void setWeekendRate(BigDecimal weekendRate) {
         this.weekendRate = weekendRate;
     }
+
+
 
 }

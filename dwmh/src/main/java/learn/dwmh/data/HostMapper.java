@@ -1,7 +1,7 @@
-package learn.data;
+package learn.dwmh.data;
 
-import learn.models.Host;
-import learn.models.Location;
+import learn.dwmh.models.Host;
+import learn.dwmh.models.Location;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

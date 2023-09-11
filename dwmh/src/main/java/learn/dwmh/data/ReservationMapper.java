@@ -1,7 +1,7 @@
-package learn.data;
+package learn.dwmh.data;
 
-import learn.models.Guest;
-import learn.models.Reservation;
+import learn.dwmh.models.Guest;
+import learn.dwmh.models.Reservation;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

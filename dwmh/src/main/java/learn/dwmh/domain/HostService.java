@@ -1,7 +1,7 @@
-package learn.domain;
+package learn.dwmh.domain;
 
-import learn.data.HostRepository;
-import learn.models.Host;
+import learn.dwmh.data.HostRepository;
+import learn.dwmh.models.Host;
 
 public class HostService {
     private final HostRepository hostRepository;

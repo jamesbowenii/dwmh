@@ -1,4 +1,4 @@
-package learn;
+package learn.dwmh;
 
 import javax.sql.DataSource;
 import com.mysql.cj.jdbc.MysqlDataSource;

@@ -1,4 +1,4 @@
-package learn.domain;
+package learn.dwmh.domain;
 
 import java.util.ArrayList;
 import java.util.List;

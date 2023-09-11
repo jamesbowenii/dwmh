@@ -1,6 +1,6 @@
-package learn.data;
+package learn.dwmh.data;
 
-import learn.models.Host;
+import learn.dwmh.models.Host;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 public class HostJdbcTemplateRepository implements HostRepository {

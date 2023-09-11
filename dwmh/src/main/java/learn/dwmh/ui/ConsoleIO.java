@@ -1,4 +1,4 @@
-package learn.ui;
+package learn.dwmh.ui;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -109,6 +109,21 @@ public class ConsoleIO {
                 return LocalDate.parse(input, formatter);
             } catch (DateTimeParseException ex) {
                 println(INVALID_DATE);
+            }
+        }
+    }
+
+    public LocalDate editLocalDate(String prompt) {
+        while (true) {
+            String input = readString(prompt);
+            if (!input.isEmpty()) {
+                try {
+                    return LocalDate.parse(input, formatter);
+                } catch (DateTimeParseException ex) {
+                    println(INVALID_DATE);
+                }
+            } else{
+                return LocalDate.parse("11/11/1111", formatter);
             }
         }
     }
